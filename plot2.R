@@ -1,5 +1,4 @@
 #-----------------------Source the data----------------------------------
-
 # Check wther the CSV file is availble in the working directory.
 if (!file.exists("household_power_consumption.txt")) {
         
@@ -22,7 +21,6 @@ if (!file.exists("household_power_consumption.txt")) {
                 unzip("exdata_data_household_power_consumption.zip")
 }
 #----------------------Preparing the data---------------------------------
-
 # Create data table.
 data <- read.table("household_power_consumption.txt", sep=";", header = TRUE)
 
