@@ -1,4 +1,16 @@
-## Introduction
+## Notes
+The following files fulfil the requirements of the Coursera assignment.
+The files will download and unzip the required assignment file if not available in the working directory
+and save the PNG files in the working directory. 
+The original assignment content is available in this repository.
+Please note that the files use the data files from the assignment.
+If you don't have the text or zip file saved in the current directory
+the script will download it and unzip. The files should be names as they are
+named in the assignment, if you renamed your files the script will download the 
+data again. The files are directly exported to PNG files and do not appear on 
+the screen.
+
+## Original Introduction
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
