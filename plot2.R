@@ -1,6 +1,6 @@
 #-----------------------Source the data----------------------------------
 
-# Check wther the CSV file is availble in the working directory.
+# Check wther the text file is availble in the working directory.
 if (!file.exists("household_power_consumption.txt")) {
         
         # Check wthether the zip archive is available.
